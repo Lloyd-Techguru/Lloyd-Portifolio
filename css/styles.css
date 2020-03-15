@@ -7,15 +7,46 @@
 html {
     font-size: 10px;
     font-family: 'Roboto' sans-serif;
-    color: lightgray;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+p {
+    font-size: 2.rem;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+
 }
 
 body {
     width: 100%;
     height: 100%;
-    background: lightseagreen;
+    background: #16162d;
     background-size: cover;
 }
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.top-nav {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #16162d;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transition: all 650ms cubic-bezier(1,0,0,1);
+}
+
 h1 {
     color: red;
     text-align: center;
