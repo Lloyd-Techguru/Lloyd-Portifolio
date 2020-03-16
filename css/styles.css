@@ -272,4 +272,22 @@ li {
     text-align: center;
 }
 
+.my-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;    
+}
+
+.skill h1{
+    text-transform: uppercase;
+    letter letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+}
+
+.icon-container{
+    width: 10rem;
+}
+
 
