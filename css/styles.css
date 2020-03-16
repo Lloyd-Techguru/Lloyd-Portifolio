@@ -47,7 +47,30 @@ img {
     margin-bottom: 1rem;
 }
 
+.section-heading h1::before,
+.section-heading h1::after{
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 50%;
+    transform:  translateX(-50%);
+    background-color: rgba(255, 255, 255, .75);
+
+}
+
 .section-heading h1{
+    width: 10rem;
+    height: 3px;
+    border-radius: .8rem;    
+    bottom: -1rem;
+}
+
+.section-heading h1{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+
+.section-heading h6{
     font-size: 1.8rem;
     font-weight: 400;
    
@@ -240,5 +263,13 @@ li {
     color: #ea4c89;
 }
 
+
+.my-skills{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+}
 
 
